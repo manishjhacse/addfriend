@@ -50,9 +50,9 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
     letter-spacing: .08rem;
 }
 .card img{
+    width: 10em;
+    height: 10em;
     border-radius: 50%;
-    width: 7em;
-    height: 7em;
     transition: all .2s ease-in-out;
 }
 .card img:hover{
@@ -60,7 +60,8 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
 }
 a{
     text-decoration: none;
-    color: blue;
+    color: #05161A;
+    font-weight: bolder;
 }
 #about-section p{
     font-size: 1.1rem;
